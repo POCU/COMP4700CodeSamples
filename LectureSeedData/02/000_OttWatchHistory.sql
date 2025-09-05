@@ -3,9 +3,9 @@ DROP TABLE IF EXISTS WatchHistory;
 
 CREATE TABLE WatchHistory
 (
-    Username VARCHAR(63) NOT NULL,
-    ShowName VARCHAR(127) NOT NULL,
-    Genre VARCHAR(31) NOT NULL,
+    Username VARCHAR(20) NOT NULL,
+    ShowName VARCHAR(50) NOT NULL,
+    Genre VARCHAR(20) NOT NULL,
     WatchMinute INT NOT NULL,
     Rating TINYINT
 );
