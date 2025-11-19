@@ -1,8 +1,7 @@
 --#region 1. Create Table
 DROP TABLE IF EXISTS Sales;
 
-CREATE TABLE Sales
-(
+CREATE TABLE Sales (
     [Order] VARCHAR(20) NOT NULL,
     [Group] VARCHAR(50) NOT NULL,
     ProductName VARCHAR(100) NOT NULL,
