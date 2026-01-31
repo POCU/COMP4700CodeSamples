@@ -1,5 +1,6 @@
 --#region 1. Create Table
 DROP TABLE IF EXISTS Sales;
+GO;
 
 CREATE TABLE Sales (
     [Order] VARCHAR(20) NOT NULL,
@@ -7,7 +8,7 @@ CREATE TABLE Sales (
     ProductName VARCHAR(100) NOT NULL,
     Quantity SMALLINT NOT NULL,
     UnitPrice DECIMAL(10,2) NOT NULL,
-    OrderDate DATETIME NOT NULL
+    OrderDate DATETIME2 NOT NULL
 );
 --#endregion
 

@@ -1,5 +1,6 @@
 --#region 1. Create Table
 DROP TABLE IF EXISTS WatchHistory;
+GO;
 
 CREATE TABLE WatchHistory (
     Username VARCHAR(20) NOT NULL,
